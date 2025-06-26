@@ -1,0 +1,51 @@
+# === Golang ===
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (go mod)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go build cache
+*.log
+*.prof
+
+# === Node / ReactJS ===
+# dependencies
+node_modules/
+
+# production build
+/build
+/dist
+
+# misc
+.DS_Store
+.env
+.env.*.local
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vscode/
+
+# testing
+coverage/
+*.lcov
+
+# Optional: macOS / Linux / system files
+*.swp
+*~
+.idea/
+Thumbs.db
