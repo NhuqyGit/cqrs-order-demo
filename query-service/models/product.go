@@ -8,7 +8,7 @@ import (
 
 type Product struct {
 	ID          primitive.ObjectID `bson:"_id,omitempty" json:"id"`
-	ProductID   int                `bson:"product_id" json:"product_id"`
+	ProductID   uint               `bson:"product_id" json:"product_id"`
 	Name        string             `bson:"name" json:"name"`
 	Description string             `bson:"description,omitempty" json:"description"`
 	Price       float64            `bson:"price" json:"price"`
