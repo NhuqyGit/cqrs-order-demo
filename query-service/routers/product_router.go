@@ -6,7 +6,7 @@ import (
 )
 
 func RegisterProductRoutes(r *gin.Engine, handler *handler.ProductHandler) {
-	products := r.Group("/products")
+	products := r.Group("/api/products")
 	{
 		products.GET("", handler.GetProducts)
 		products.POST("", handler.CreateProduct)
